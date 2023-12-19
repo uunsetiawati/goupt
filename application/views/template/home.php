@@ -28,22 +28,22 @@
   <meta property="twitter:image" content="https://d1fdloi71mui9q.cloudfront.net/iA77vXfcT265XvBR2dZs_AP04aC2F3SG4yePf">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="<?=base_url('assets/img/favicon.png')?>" rel="icon">
+  <link href="<?=base_url('assets/img/apple-touch-icon.png')?>" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
-  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="<?=base_url('assets/vendor/bootstrap/css/bootstrap.min.css')?>" rel="stylesheet">
+  <link href="<?=base_url('assets/vendor/icofont/icofont.min.css')?>" rel="stylesheet">
+  <link href="<?=base_url('assets/vendor/boxicons/css/boxicons.min.css')?>" rel="stylesheet">
+  <link href="<?=base_url('assets/vendor/venobox/venobox.css')?>" rel="stylesheet">
+  <link href="<?=base_url('assets/vendor/owl.carousel/assets/owl.carousel.min.css')?>" rel="stylesheet">
+  <link href="<?=base_url('assets/vendor/aos/aos.css')?>" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="<?=base_url('assets/css/style.css')?>" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: Ninestars - v2.0.0
@@ -93,7 +93,7 @@
           </h2>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img">
-          <img src="assets/img/hero.png" class="img-fluid animated" alt="">
+          <img src="<?=base_url('assets/img/hero.png')?>" class="img-fluid animated" alt="">
         </div>
       </div>
     </div>
@@ -150,16 +150,16 @@
 
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/jquery/jquery.min.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/venobox/venobox.min.js"></script>
-  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="<?=base_url('assets/vendor/jquery/jquery.min.js')?>"></script>
+  <script src="<?=base_url('assets/vendor/bootstrap/js/bootstrap.bundle.min.js')?>"></script>
+  <script src="<?=base_url('assets/vendor/jquery.easing/jquery.easing.min.js')?>"></script>
+  <script src="<?=base_url('assets/vendor/isotope-layout/isotope.pkgd.min.js')?>"></script>
+  <script src="<?=base_url('assets/vendor/venobox/venobox.min.js')?>"></script>
+  <script src="<?=base_url('assets/vendor/owl.carousel/owl.carousel.min.js')?>"></script>
+  <script src="<?=base_url('assets/vendor/aos/aos.js')?>"></script>
 
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="<?=base_url('assets/js/main.js')?>"></script>
 
   <script type="text/javascript">
     function CopyUrl() {
