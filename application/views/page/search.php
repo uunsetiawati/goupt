@@ -5,7 +5,7 @@
     <div class="container">
 
       <div class="row">        
-        <div class="col-lg-12 mt-12 mt-lg-0 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+        <div class="col-lg-12 mt-12 mt-lg-0 d-flex align-items-stretch" data-aos-delay="200">
           <form action="<?= base_url('sgo')?>" method="post" class="php-email-form">           
             <div class="form-group">
               <label for="name">Masukkan Kode Pencarian</label>
