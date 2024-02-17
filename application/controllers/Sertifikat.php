@@ -39,7 +39,7 @@ class Sertifikat extends CI_Controller {
 			$nama = $link->row("nama");
 			$keperluan = $link->row("keperluan");
 			$keterangan = $link->row("keterangan");
-			$this->session->set_flashdata('success','<h1>Sertifikat Tervalidasi </h1><br> <small> ID Sertifikat : '.$kode.'</small><br> Nama : '.$nama.'<br> Keperluan : '.$keperluan.'<br><br> Keterangan : <br>'.$keterangan.'<br> <a href="https://logbook.uptkukm.id/printsertifikat/seminar/'.$id.'"> Download Sertifikat</a><br>');
+			$this->session->set_flashdata('success','<h1>Sertifikat Tervalidasi </h1><br> <small> ID Sertifikat : '.$kode.'</small><br> Nama : '.$nama.'<br> Keperluan : '.$keperluan.'<br><br> Keterangan : <br>'.$keterangan.'<br> <a href="https://logbook.uptkukm.com/printsertifikat/seminar/'.$id.'"> Download Sertifikat</a><br>');
 			redirect('cert');
 		} else {
 			$this->session->set_flashdata('danger','Nomor Sertifikat Tidak Valid');
